@@ -47,7 +47,7 @@ if tlacitko:
     # Vytvoření PDF
     pdf = FPDF()
     pdf.add_page()
-    pdf.set_font("Arial", size=12)
+    pdf.set_font("helvetica", size=12)
     pdf.cell(200, 10, "Výstup – Body na kružnici", ln=True)
     pdf.cell(200, 10, f"Střed: ({stred_x}, {stred_y})", ln=True)
     pdf.cell(200, 10, f"Poloměr: {polomer} m", ln=True)
