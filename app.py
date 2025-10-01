@@ -73,8 +73,8 @@ if tlacitko:
 # Informace o aplikaci v samostatném okně
 if st.button("ℹ️ Informace o aplikaci"):
     st.info("""
-    **Autor:** Tvé jméno  
-    **Email:** tvůj-email@example.com  
+    **Autor:** Nikola Vognarová  
+    **Email:** 278529@vutbr.cz  
     **Použité technologie:** Python, Streamlit, Matplotlib, FPDF  
     Aplikace umožňuje zobrazit body na kružnici dle zadaných parametrů, vykreslit je s osami a jednotkami a stáhnout výsledky jako PDF.
     """)
